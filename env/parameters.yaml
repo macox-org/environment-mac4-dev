@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:mac4/adminUser:password
+  username: admin
+dashboardAuthID: vault:mac4:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:mac4:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: 53788998+macox-bot@users.noreply.github.com
+  token: vault:mac4/pipelineUser:token
+  username: macox-bot
+prow:
+  hmacToken: vault:mac4/prow:hmacToken
